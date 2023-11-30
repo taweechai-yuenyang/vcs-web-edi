@@ -1,2 +1,9 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_vcs_web_edi_vcs_web_edi,vcs_web_edi.vcs_web_edi,model_vcs_web_edi_vcs_web_edi,base.group_user,1,1,1,1
+access_vcs_web_edi_vcs_product_group,vcs_web_edi.vcs_product_group,model_vcs_web_edi_vcs_product_group,base.group_user,1,1,1,1
+access_vcs_web_edi_vcs_product_unit,vcs_web_edi.vcs_product_unit,model_vcs_web_edi_vcs_product_unit,base.group_user,1,1,1,1
+access_vcs_web_edi_vcs_product_type,vcs_web_edi.vcs_product_type,model_vcs_web_edi_vcs_product_type,base.group_user,1,1,1,1
+access_vcs_web_edi_vcs_whs,vcs_web_edi.vcs_whs,model_vcs_web_edi_vcs_whs,base.group_user,1,1,1,1
+access_vcs_web_edi_vcs_ref_type,vcs_web_edi.vcs_ref_type,model_vcs_web_edi_vcs_ref_type,base.group_user,1,1,1,1
+access_vcs_web_edi_vcs_web_edi.vcs_booking,vcs_web_edi.vcs_web_edi.vcs_booking,model_vcs_web_edi_vcs_web_edi.vcs_booking,base.group_user,1,1,1,1
+access_vcs_web_edi_vcs_web_edi.vcs_booking_detail,vcs_web_edi.vcs_web_edi.vcs_booking_detail,model_vcs_web_edi_vcs_web_edi.vcs_booking_detail,base.group_user,1,1,1,1
+access_vcs_web_edi_vcs_web_edi.vcs_line_notifies,vcs_web_edi.vcs_web_edi.vcs_line_notifies,model_vcs_web_edi_vcs_web_edi.vcs_line_notifies,base.group_user,1,1,1,1

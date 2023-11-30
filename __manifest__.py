@@ -3,7 +3,7 @@
     'name': "VCS Web EDI",
     'author': "Taweechai Yuenyang",
     "email": "taweechai.yuenyang@outlook.com",
-    'website': 'https://taweechai-yuenyang.github.io',
+    'website': 'https://github.com/taweechai-yuenyang/vcs-web-edi',
     'license': 'Other OSI approved licence',# license คือ หมวดหมู่หน่วยงานของโมดูล
     'summary': 'จัดการข้อมูล Web EDI',# summary คือ คำอธิบายสั้นๆ ของโมดูล
     'description': 'จัดการข้อมูล Web EDI ของบริษัทในเคลือของ VCS Group.',# description คือ คำอธิบายยาวของโมดูล
@@ -13,10 +13,10 @@
     'category': 'VCS Category',
     'version': '0.1',
     # any module necessary for this one to work correctly
-    'depends': ['base','mail','product'],
+    'depends': ['base','mail','hr','product'],
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
     ],
