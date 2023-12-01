@@ -1,594 +1,594 @@
 <odoo>
     <data>
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">053</field>
             <field name="name">ฝา</field>
             <field name="description">053-ฝา</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">147</field>
             <field name="name">ซอง</field>
             <field name="description">147-ซอง</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">006</field>
             <field name="name">เดือน</field>
             <field name="description">006-เดือน</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">007</field>
             <field name="name">ผืน</field>
             <field name="description">007-ผืน</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">068</field>
             <field name="name">แท่น</field>
             <field name="description">068-แท่น</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">002</field>
             <field name="name">เที่ยว</field>
             <field name="description">002-เที่ยว</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">008</field>
             <field name="name">โหล</field>
             <field name="description">008-โหล</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">009</field>
             <field name="name">กล่อง</field>
             <field name="description">009-กล่อง</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">069</field>
             <field name="name">LICENSE</field>
             <field name="description">069-LICENSE</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">070</field>
             <field name="name">PCE</field>
             <field name="description">070-PCE</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">065</field>
             <field name="name">ดวง</field>
             <field name="description">065-ดวง</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">066</field>
             <field name="name">เที่ยว</field>
             <field name="description">066-เที่ยว</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">067</field>
             <field name="name">ตัน</field>
             <field name="description">067-ตัน</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">001</field>
             <field name="name">PCS</field>
             <field name="description">001-PCS</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">003</field>
             <field name="name">SET</field>
             <field name="description">003-SET</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">004</field>
             <field name="name">เส้น</field>
             <field name="description">004-เส้น</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">005</field>
             <field name="name">ลัง</field>
             <field name="description">005-ลัง</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">010</field>
             <field name="name">ล้อ</field>
             <field name="description">010-ล้อ</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">011</field>
             <field name="name">ตัว</field>
             <field name="description">011-ตัว</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">012</field>
             <field name="name">ตลับ</field>
             <field name="description">012-ตลับ</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">013</field>
             <field name="name">ชุด</field>
             <field name="description">013-ชุด</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">014</field>
             <field name="name">เมตร</field>
             <field name="description">014-เมตร</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">015</field>
             <field name="name">ใบ</field>
             <field name="description">015-ใบ</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">016</field>
             <field name="name">กระป๋อง</field>
             <field name="description">016-กระป๋อง</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">017</field>
             <field name="name">แกลอน</field>
             <field name="description">017-แกลอน</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">018</field>
             <field name="name">คู่</field>
             <field name="description">018-คู่</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">019</field>
             <field name="name">ขวด</field>
             <field name="description">019-ขวด</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">020</field>
             <field name="name">ปี๊บ</field>
             <field name="description">020-ปี๊บ</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">021</field>
             <field name="name">EA</field>
             <field name="description">021-EA</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">022</field>
             <field name="name">ที่</field>
             <field name="description">022-ที่</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">023</field>
             <field name="name">คัน</field>
             <field name="description">023-คัน</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">024</field>
             <field name="name">ท่อ</field>
             <field name="description">024-ท่อ</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">025</field>
             <field name="name">โหล</field>
             <field name="description">025-โหล</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">026</field>
             <field name="name">ลูก</field>
             <field name="description">026-ลูก</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">027</field>
             <field name="name">ผืน</field>
             <field name="description">027-ผืน</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">028</field>
             <field name="name">ม้วน</field>
             <field name="description">028-ม้วน</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">029</field>
             <field name="name">ห่อ</field>
             <field name="description">029-ห่อ</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">030</field>
             <field name="name">กล่อง</field>
             <field name="description">030-กล่อง</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">031</field>
             <field name="name">ถัง</field>
             <field name="description">031-ถัง</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">032</field>
             <field name="name">เหมา</field>
             <field name="description">032-เหมา</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">033</field>
             <field name="name">ด้าม</field>
             <field name="description">033-ด้าม</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">034</field>
             <field name="name">แพ็ค</field>
             <field name="description">034-แพ็ค</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">035</field>
             <field name="name">เล่ม</field>
             <field name="description">035-เล่ม</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">036</field>
             <field name="name">แผง</field>
             <field name="description">036-แผง</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">037</field>
             <field name="name">หลอด</field>
             <field name="description">037-หลอด</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">038</field>
             <field name="name">รีม</field>
             <field name="description">038-รีม</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">039</field>
             <field name="name">ขด</field>
             <field name="description">039-ขด</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">040</field>
             <field name="name">ถุง</field>
             <field name="description">040-ถุง</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">041</field>
             <field name="name">แถว</field>
             <field name="description">041-แถว</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">042</field>
             <field name="name">ท่อน</field>
             <field name="description">042-ท่อน</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">043</field>
             <field name="name">แท่ง</field>
             <field name="description">043-แท่ง</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">044</field>
             <field name="name">เม็ด</field>
             <field name="description">044-เม็ด</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">045</field>
             <field name="name">ซอง</field>
             <field name="description">045-ซอง</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">046</field>
             <field name="name">มัด</field>
             <field name="description">046-มัด</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">047</field>
             <field name="name">ก้อน</field>
             <field name="description">047-ก้อน</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">048</field>
             <field name="name">หัว</field>
             <field name="description">048-หัว</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">049</field>
             <field name="name">แฟ้ม</field>
             <field name="description">049-แฟ้ม</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">050</field>
             <field name="name">กระสอบ</field>
             <field name="description">050-กระสอบ</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">051</field>
             <field name="name">ป้าย</field>
             <field name="description">051-ป้าย</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">052</field>
             <field name="name">ลิตร</field>
             <field name="description">052-ลิตร</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">054</field>
             <field name="name">ชิ้น</field>
             <field name="description">054-ชิ้น</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">055</field>
             <field name="name">งาน</field>
             <field name="description">055-งาน</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">056</field>
             <field name="name">ฟุต</field>
             <field name="description">056-ฟุต</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">057</field>
             <field name="name">ราง</field>
             <field name="description">057-ราง</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">058</field>
             <field name="name">หลัง</field>
             <field name="description">058-หลัง</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">059</field>
             <field name="name">ตร.ม.</field>
             <field name="description">059-ตร.ม.</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">060</field>
             <field name="name">RACK</field>
             <field name="description">060-RACK</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">061</field>
             <field name="name">รายการ</field>
             <field name="description">061-รายการ</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">062</field>
             <field name="name">ปี</field>
             <field name="description">062-ปี</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">063</field>
             <field name="name">ช.ม</field>
             <field name="description">063-ช.ม</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">064</field>
             <field name="name">เรือน</field>
             <field name="description">064-เรือน</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">071</field>
             <field name="name">BOX</field>
             <field name="description">071-BOX</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">072</field>
             <field name="name">PALET</field>
             <field name="description">072-PALET</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">0032</field>
             <field name="name">กรัม-</field>
             <field name="description">0032-กรัม-</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">073</field>
             <field name="name">UNI</field>
             <field name="description">073-UNI</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">01</field>
             <field name="name">Cs</field>
             <field name="description">01-Cs</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">074</field>
             <field name="name">เดือน</field>
             <field name="description">074-เดือน</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">075</field>
             <field name="name">JOB</field>
             <field name="description">075-JOB</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">076</field>
             <field name="name">ER</field>
             <field name="description">076-ER</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">00001</field>
             <field name="name">เทส</field>
             <field name="description">00001-เทส</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">015.</field>
             <field name="name">ตารางเมตร</field>
             <field name="description">015.-ตารางเมตร</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">146</field>
             <field name="name">คัน</field>
             <field name="description">146-คัน</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">0059</field>
             <field name="name">ห้อง</field>
             <field name="description">0059-ห้อง</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">.</field>
             <field name="name">.</field>
             <field name="description">.-.</field>
             <field name="is_active">true</field>
         </record>
 
-        <record model="vcs_product_group.vcs_product_group">
+        <record model="vcs_web_edi.vcs_product_group">
             <field name="code">000</field>
             <field name="name">.</field>
             <field name="description">000-.</field>
