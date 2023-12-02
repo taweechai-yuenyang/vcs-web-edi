@@ -437,3 +437,39 @@ class VcsPrintTag(models.Model):
     qr_code = fields.Char(size=255, string="QR Code", tracking=True)
     is_active = fields.Boolean(string="Is Active", default=False, tracking=True)
     
+class VcsReceiveHeader(models.Model):
+    _name = 'vcs_web_edi.vcs_receive_header'
+    _description = 'Receive Header'
+    _inherit = ['mail.thread','mail.activity.mixin']
+    
+    receive_by_id = fields.Many2one(ManagementUser, string="Receive By ID",required=True,tracking=True)
+    confirm_invoice_id = fields.Many2one(ConfirmInvoiceHeader, string="PO No.",required=True,tracking=True)
+    supplier_id = fields.Many2one(Supplier, string="Supplier ID",required=True,tracking=True)
+    part_model_id = fields.Many2one(ProductGroup, string="Model ID",required=True,tracking=True)
+    purchase_no = fields.Char(max_length=15,string="PO No.",tracking=True)
+    receive_no = fields.Char(max_length=15,string="Receive No.",tracking=True)
+    receive_date = fields.Date(string="Invoice Date",tracking=True)
+    inv_delivery_date = fields.Date(string="Delivery Date",tracking=True)
+    inv_no = fields.Char(max_length=15,string="Invoice No.",tracking=True)
+    item = fields.Interger(string="Item")
+    qty = fields.Interger(string="Qty")
+    summary_price = fields.Float(string="Summary Price",tracking=True, default="0")
+    remark = fields.Text(string="Remark",tracking=True)
+    receive_status = fields.Selection([("0", "รอรับ"),("1", "รับแล้ว")], string="Receive Status",tracking=True, default="0")
+    ref_formula_id = fields.Char(size=8, string="Formula ID", tracking=True)
+    is_active = fields.Boolean(string="Is Active", tracking=True, default=False)
+    
+class VcsReceiveDetail(models.Model):
+    _name = 'vcs_web_edi.vcs_receive_detail'
+    _description = 'Receive Detail'
+    _inherit = ['mail.thread','mail.activity.mixin']
+    
+    receive_header_id = fields.Many2one(ReceiveHeader, string="Receive ID", blank=False, null=False, on_delete=models.CASCADE, editable=False)
+    confirm_detail_id = fields.Many2one(ConfirmInvoiceDetail, string="Confirm Detail", on_delete=models.CASCADE)
+    seq = fields.Interger(string="Seq")
+    qty = fields.Interger(string="Qty")
+    summary_price = fields.Float(string="Summary Price",tracking=True, default="0")
+    remark = fields.Text(string="Remark",tracking=True)
+    receive_status = fields.Selection([("0", "รอรับ"),("1", "รับแล้ว")], string="Receive Status",tracking=True, default="0")
+    ref_formula_id = fields.Char(size=8, string="Formula ID", tracking=True)
+    is_active = fields.Boolean(string="Is Active", tracking=True, default=False)
