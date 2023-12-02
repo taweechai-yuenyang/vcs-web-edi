@@ -354,9 +354,9 @@ class VcsReportPDSHeader(models.Model):
     pds_no = fields.Char(size=50,string="PDS No.", required=True, tracking=True)# ParmPDSNo
     issue_date = fields.Char(size=50, string="Issue Date", required=True, tracking=True)# ParmIssueDate
     issue_time = fields.Char(size=50, string="Issue Time", tracking=True)# ParmTime
-    approve_by_id = fields.ImageField(string="Approve By ID",tracking=True)
-    issue_by_id = fields.ImageField(string="Issue By ID",tracking=True)
-    is_active = fields.BooleanField(string="Is Active", tracking=True,default=False)
+    approve_by_id = fields.Binary(string="Approve By ID",tracking=True)
+    issue_by_id = fields.Binary(string="Issue By ID",tracking=True)
+    is_active = fields.Boolean(string="Is Active", tracking=True, default=False)
     
     _sql_constraints = [
         ('uniq_report_pds_no', 'unique(pds_no)', "A stuff already exists with this name. Stuff's name must be unique!"),
