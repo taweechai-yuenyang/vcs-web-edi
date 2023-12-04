@@ -1,796 +1,531 @@
 <odoo>
     <data>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">0001</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">วัสดุสิ้นเปลืองโรงงาน</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">001</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">วัตถุดิบ</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">002</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">วัสดุสิ้นเปลืองโรงงานส่วนกลางโรง</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">003</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">ตัวประกอบ</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">004</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">อุปกรณ์สำนักงาน</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">005</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">สำเร็จรูป</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">006</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">เครื่องจักร</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">007</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">สินทรัพย์ถาวร</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">008</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">อะไหล่ทั่วไป</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">009</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">มัดจำ</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">010</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">ค่าจ้างทำของ</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">011</field>
+        <record id="product_category_vcs_group" model="product.category">
             <field name="name">ค่าแรง</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">012</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">บิลยกเลิก</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">013</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">ค่าน้ำมัน</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">014</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">สินทรัพย์อื่นๆ</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">015</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">เบ็ดเตล็ด</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">016</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">วัสดุอุปกรณ์สำนักงาน</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">017</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">อุปกรณ์โรงงาน</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">018</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">วัสดุอุปกรณ์โรงงาน</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">019</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">แม่พิมพ์</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">020</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">สวัสดิการอื่นๆ</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">021</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">ค่าจ้างขนของ</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">022</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">ค่าซ่อมแซมแม่พิมพ์</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">023</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">ALL</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">024</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">IMPLEMENT</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">025</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">OEM</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">181</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RX181</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">BF612</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">BF612</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">BF615</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">BF615</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">BK105</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">BK105</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">BK70</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">BK70</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">BK93</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">BK93</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">BK95</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">BK95</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">C31C</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">D31C-IND</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">CB108X</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">CB108X</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">CB120</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">CB120</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">CB70</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">CB70</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">CB70G PRO</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">CB70G PRO</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">CB93</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">CB93</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">CB93G</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">CB93G</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">CH70</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">CH70</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">CK105</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">CK105</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">CK70</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">CK70</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">CK70RPO</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">CK70RPO</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">CK93</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">CK93</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">CK95</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">CK95</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">CP100</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">CP100</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">CP200</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">CP200</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">D31C</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">D131C</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DC</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">COMBINE</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DC105X</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DC105X</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DC108X</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DC108X</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DC120X</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DC120X</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DC68G</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DC68G-IN</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DC70</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DC-70G</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DC70G PRO</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DC70G PRO</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DC70H</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DC70H</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DC93</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DC93 10.00</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DC95</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DC95GM</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DH225</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DH225</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DH226</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DH226</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DH245</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DH245</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DH246</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DH246</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DP203B</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DP203B</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DP223C</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DP223C</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DP224</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DP224</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DP263</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DP263</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DP264</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DP264</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DP283N</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DP283N</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">DS</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">DS10</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">E45</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">E-45C</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">E65C</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">E65C</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">FD</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">FRONT DOZER</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">FD144</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">FD-144</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">FD163</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">FD-163</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">FD164</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">FD164E</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">FD183</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">FD-183</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">FD190</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">FD190</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">FD202</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">FD-202</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">FD202HS</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">FD202HS</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">FD206</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">FD-206</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">FD210</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">FD-210</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">FD220J</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">FD220J</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">FD220L</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">FD220L</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">FD240</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">FD-240</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">GS1</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">GS1</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">HB136</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">HB136</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">KRX175</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">KRX175</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">KRX182</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">KRX182VN</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">KRX193</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">KRX193</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">KRZ</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">KRZ150D</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">LD100</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">LD100</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">M108</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">M108</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">M6040</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">M6040</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">M6240</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">M6240</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">M7040</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">M7040</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">M8540</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">M8540</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">M9540</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">M9540</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">MU52</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">MU52</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">NC</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">ล้อ</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">NC131</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">ล้อเล็ก (800)</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">NC131S</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">ล้อใหญ่ (980)</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">NUT</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">NUT</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RH240</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RH-240</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RM220</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RM220</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RP80</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RP80</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RX</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">ROTARY</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RX135B</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RX.135B</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RX135B2</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RX.135B2</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RX175E</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RE175E</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RX182</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RX-182</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RX183</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RX183F</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RX192</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RX-192</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RX193</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RX193F</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RX200</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RX-200</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RX220</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RX-220</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RX220G</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RX220G</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RX220H</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RX220H</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RX80A</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RX80A</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RZ160</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RZ-160</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RZ180</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RZ-180</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RZ200</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RZ-200</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">RZ220</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">RZ-220</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">SBP</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">SBP100</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">SF-440</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">SF440</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">SF-940</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">SF-940</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">SH2</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">SH2</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">SH95</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">SH95</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">SX-135</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">SX-135</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">SX-145</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">SX-145</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">U35</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">U35</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
-        <record model="vcs_web_edi.vcs_product_group">
-            <field name="code">ทำสี</field>
+        <record id="product_category_vcs_group" model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
             <field name="name">ทำสี</field>
-            <field name="description">-</field>
-            <field name="is_active">true</field>
         </record>
     </data>
 </odoo>

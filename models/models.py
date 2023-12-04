@@ -64,7 +64,6 @@ class VcsBooking(models.Model):
     _description = 'Booking'
     _inherit = ['mail.thread','mail.activity.mixin']
     
-    skid = fields.Char(size=8,string="ID", tracking=True, required=True)
     ref_type_id = fields.Many2one('vcs_web_edi.vcs_ref_type', string="Ref. Type ID", tracking=True) # order_type_id = fields.Many2one(RefType, string="Type ID", on_delete=models.SET_NULL, null=True)
     product_type = fields.Many2one('product.category', string="Product Type ID", tracking=True) # filter_product_type = models.ManyToManyField(ProductType, , string="Filter Product Type ID",null=True)
     name = fields.Char(size=255,string="Name", tracking=True, required=True)
@@ -73,9 +72,9 @@ class VcsBooking(models.Model):
     description = fields.Text(string="Description", tracking=True)
     is_active = fields.Boolean(string="Is Active", tracking=True, default=False)
 
-    _sql_constraints = [
-        ('uniq_booking_skid', 'unique(skid)', "A stuff already exists with this name . Stuff's name must be unique!"),
-    ]
+    # _sql_constraints = [
+    #     ('uniq_booking_skid', 'unique(skid)', "A stuff already exists with this name . Stuff's name must be unique!"),
+    # ]
     
 class VcsBookingDetail(models.Model):
     _name = 'vcs_web_edi.vcs_booking_detail'
