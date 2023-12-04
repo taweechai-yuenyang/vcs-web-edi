@@ -31,34 +31,6 @@ class VcsProductGroup(models.Model):
         ('uniq_product_group_code', 'unique(code)', "A stuff already exists with this name . Stuff's name must be unique!"),
     ]
     
-class VcsProductUnit(models.Model):
-    _name = 'vcs_web_edi.vcs_product_unit'
-    _description = 'Product Unit'
-    _inherit = ['mail.thread', 'mail.activity.mixin']
-    
-    name = fields.Char(size=255,string="Name", tracking=True, required=True)
-    code = fields.Char(size=50,string="Code", tracking=True, required=True)
-    description = fields.Text(string="Description", tracking=True)
-    is_active = fields.Boolean(string="Is Active", tracking=True, default=False)
-    
-    _sql_constraints = [
-        ('uniq_unit_code', 'unique(code)', "A stuff already exists with this name . Stuff's name must be unique!"),
-    ]
-    
-class VcsProductType(models.Model):
-    _name = 'vcs_web_edi.vcs_product_type'
-    _description = 'Product Type'
-    _inherit = ['mail.thread', 'mail.activity.mixin']
-    
-    name = fields.Char(size=255,string="Name", tracking=True, required=True)
-    code = fields.Char(size=50,string="Code", tracking=True, required=True)
-    description = fields.Text(string="Description", tracking=True)
-    is_active = fields.Boolean(string="Is Active", tracking=True, default=False)
-    
-    _sql_constraints = [
-        ('uniq_product_type', 'unique(code)', "A stuff already exists with this name . Stuff's name must be unique!"),
-    ]
-    
 class VcsReferenceType(models.Model):
     _name = 'vcs_web_edi.vcs_ref_type'
     _description = 'Reference Type'
@@ -94,7 +66,7 @@ class VcsBooking(models.Model):
     
     skid = fields.Char(size=8,string="ID", tracking=True, required=True)
     ref_type_id = fields.Many2one('vcs_web_edi.vcs_ref_type', string="Ref. Type ID", tracking=True) # order_type_id = fields.Many2one(RefType, string="Type ID", on_delete=models.SET_NULL, null=True)
-    product_type = fields.Many2one('vcs_web_edi.vcs_product_type', string="Product Type ID", tracking=True) # filter_product_type = models.ManyToManyField(ProductType, , string="Filter Product Type ID",null=True)
+    product_type = fields.Many2one('product.category', string="Product Type ID", tracking=True) # filter_product_type = models.ManyToManyField(ProductType, , string="Filter Product Type ID",null=True)
     name = fields.Char(size=255,string="Name", tracking=True, required=True)
     code = fields.Char(size=50,string="Code", tracking=True, required=True)
     prefix = fields.Char(size=50,string="Code", tracking=True) # prefix = fields.Char(size=250, string="Prefix")
@@ -278,9 +250,9 @@ class VcsForecastDetail(models.Model):
     _inherit = ['mail.thread','mail.activity.mixin']
     
     forecast_id = fields.Many2one('vcs_web_edi.vcs_forecast',string='Forecast ID', required=True, tracking=True)# forecast_id = fields.Many2one(Forecast, string="Open PDS ID", blank=False, null=False, on_delete=models.CASCADE)
-    product_type_id = fields.Many2one('vcs_web_edi.vcs_product_type',string='Product Type ID',required=True,tracking=True)# product_type_id = fields.Many2one(Product, string="Product Code", blank=False, null=False, on_delete=models.CASCADE)
-    product_id = fields.Many2one('product.template',string='Product ID',required=True,tracking=True)# product_id = fields.Many2one(Product, string="Product Code", blank=False, null=False, on_delete=models.CASCADE)
-    product_unit_id = fields.Many2one('vcs_web_edi.vcs_product_unit',string='Product Unit ID',required=True,tracking=True)# product_unit_id = fields.Many2one(Product, string="Product Code", blank=False, null=False, on_delete=models.CASCADE)
+    product_type_id = fields.Many2one('product.category',string='Product Type ID',required=True,tracking=True)# product_type_id = fields.Many2one(Product, string="Product Code", blank=False, null=False, on_delete=models.CASCADE)
+    product_id = fields.Many2one('product.product',string='Product ID',required=True,tracking=True)# product_id = fields.Many2one(Product, string="Product Code", blank=False, null=False, on_delete=models.CASCADE)
+    product_unit_id = fields.Many2one('uom.uom',string='Product Unit ID',required=True,tracking=True)# product_unit_id = fields.Many2one(Product, string="Product Code", blank=False, null=False, on_delete=models.CASCADE)
     seq = fields.Integer(string="Seq", tracking=True, default="0")# seq = fields.Integer(string="#",default="0")
     request_qty = fields.Float(string="Request Qty", tracking=True, default="0")# request_qty = fields.Integer(string="Request Qty.", default="0.0")
     balance_qty = fields.Float(string="Balance Qty", tracking=True, default="0")# balance_qty = fields.Integer(string="Total Qty.", default="0.0")
@@ -317,7 +289,7 @@ class VcsPDS(models.Model):
     balance_qty = fields.Integer(string="Balance Qty", tracking=True, default="0")# balance_qty = fields.Integer(string="Total Qty", default="0")
     summary_price = fields.Float(string="Summary Price", tracking=True, default="0")# summary_price =fields.Float(string="Summary Price", default="0")
     remark = fields.Text(string="Remark", tracking=True)# remark = fields.Char(string="Remark")
-    status = fields.Selection([(0, "รอเปิด PO"),(1, "เปิด PO บางส่วน"),(2, "เสร็จสมบูรณ์"),(3, "-"),(4, "-")], string="Status", tracking=True, default="0")# pds_status = fields.Char(size=1, choices=FORECAST_PDS_STATUS,string="PDS Status", default="0")
+    status = fields.Selection([("0", "รอเปิด PO"),("1", "เปิด PO บางส่วน"),("2", "เสร็จสมบูรณ์"),("3", "-"),("4", "-")], string="Status", tracking=True, default="0")# pds_status = fields.Char(size=1, choices=FORECAST_PDS_STATUS,string="PDS Status", default="0")
     download_count = fields.Integer(string="Download Count", tracking=True, default="0")# pds_download_count = fields.Integer(string="Download Count")
     ref_formula_id = fields.Char(size=8,string="Formula ID", tracking=True)
     is_activate = fields.Boolean(string="Is Active", tracking=True, default=False)

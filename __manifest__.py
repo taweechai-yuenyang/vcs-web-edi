@@ -13,7 +13,7 @@
     'category': 'VCS Category',
     'version': '0.1',
     # any module necessary for this one to work correctly
-    'depends': ['base','web','mail','hr','product'],
+    'depends': ['base','web','mail','product'],
     # always loaded
     'data': [
         'security/ir.model.access.csv',
@@ -22,8 +22,17 @@
     ],
     # only loaded in demonstration mode
     'demo': [
-        # 'demo/vcs_product_unit.xml',
-        # 'demo/vcs_product_group.xml',
+        'demo/vcs_product_unit.xml',
+        'demo/vcs_product_group.xml',
+        'demo/vcs_product_type.xml',
+        'demo/vcs_ref_type.xml',
+        'demo/vcs_whs.xml',
+        'demo/vcs_booking.xml',
+        'demo/vcs_line_notifies.xml',
+        'demo/vcs_revise_type.xml',
+        'demo/vcs_on_month.xml',
+        'demo/vcs_on_year.xml',
+        'demo/vcs_product.xml',
     ],
     "application": True,
     'installable': True,# installable คือ ระบุว่าโมดูลสามารถติดตั้งได้หรือไม่

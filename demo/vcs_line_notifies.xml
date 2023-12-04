@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <record model="vcs_web_edi.vcs_line_notifies">
+            <field name="token">UVjbbQsus8lznMSGfCKMpPxqfnnIbjHVvRKrczK5lHE</field>  
+            <field name="name">Test</field>
+            <field name="description">-</field>
+            <field name="is_active">True</field>  
+        </record>
+    </data>
+</odoo>

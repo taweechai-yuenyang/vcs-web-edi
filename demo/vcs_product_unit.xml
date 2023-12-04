@@ -1,5 +1,11 @@
 <odoo>
     <data>
+        <!-- <record id="product_uom_unit" model="uom.uom">
+            <field name="category_id" ref="product_uom_categ_unit"/>
+            <field name="name">Units</field>
+            <field name="factor" eval="1.0"/>
+            <field name="uom_type">reference</field>
+        </record> -->
         <record model="vcs_web_edi.vcs_product_group">
             <field name="code">053</field>
             <field name="name">ฝา</field>

@@ -1,0 +1,1102 @@
+<odoo>
+    <data>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">A1</field>
+            <field name="name">ใบปรับยอด (ระบบผลิต)</field>
+            <field name="description">ADJUST BALANCE NOTE (MRP)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">AB</field>
+            <field name="name">ใบเพิ่ม/ลด ใบประมาณการก่อสร้าง</field>
+            <field name="description">ADD/SUBTRACT ESTIMATE OF CONSTRUCT NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">AJ</field>
+            <field name="name">ใบปรับยอด</field>
+            <field name="description">ADJUST BALANCE NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">AL</field>
+            <field name="name">ใบปรับยอด ( Location )</field>
+            <field name="description">ADJUST BALANCE NOTE (LOCATION)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">AW</field>
+            <field name="name">ใบปรับยอด (Work Center)</field>
+            <field name="description">ADJUST BALANCE NOTE (W/C)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">B5</field>
+            <field name="name">ใบแจ้งหนี้เงินมัดจำ(ระบบซื้อ)</field>
+            <field name="description">INVOICES DEPOSIT (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">B7</field>
+            <field name="name">ใบแจ้งหนี้คืนเงินมัดจำ (ซื้อ)</field>
+            <field name="description">CREDIT DEPOSIT NOTE (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BA</field>
+            <field name="name">ใบลดหนี้ เงินสด บริการ (ซื้อ)</field>
+            <field name="description">CREDIT CASH NOTE - SERVICE (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BB</field>
+            <field name="name">ใบเพิ่มหนี้ เงินสด บริการ (ซื้อ)</field>
+            <field name="description">DEBIT CASH NOTE - SERVICE (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BC</field>
+            <field name="name">ใบลดหนี้ เงินสด (ซื้อ)</field>
+            <field name="description">CREDIT CASH NOTE (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BD</field>
+            <field name="name">ใบเพิ่มหนี้ เงินสด (ซื้อ)</field>
+            <field name="description">DEBIT CASH NOTE (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BI</field>
+            <field name="name">ใบส่งของ/ใบกำกับภาษี/ใบแจ้งหนี้ (ซื้อ)</field>
+            <field name="description">DELIVERY NOTE/TAX INVOICE/DEBIT NOTE (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BM</field>
+            <field name="name">ใบลดหนี้ เงินเชื่อ (ซื้อ)</field>
+            <field name="description">CREDIT RECEIVABLE NOTE (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BN</field>
+            <field name="name">ใบลดหนี้ เงินเชื่อ บริการ (ซื้อ)</field>
+            <field name="description">CREDIT RECEIVABLE NOTE - SERVICE (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BO</field>
+            <field name="name">บัญชีแสดงปริมาณวัสดุและราคาก่อสร้าง</field>
+            <field name="description">BILL OF QUANTITY</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BQ</field>
+            <field name="name">ใบส่งของ/ใบกำกับภาษี/พิมพ์ใบแจ้งหนี้แยก (ซื้อ)</field>
+            <field name="description">DELIVERY NOTE/TAX INVOICE/DEBIT NOTE SEPARATELY (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BR</field>
+            <field name="name">ใบส่งของ/ใบกำกับภาษี/ใบเสร็จรับเงิน(บิลเงินสด) (ซื้อ)</field>
+            <field name="description">DELIVERY NOTE/TAX INVOICE/RECEIPT(CASH BILL) (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BS</field>
+            <field name="name">ใบยืมสินค้าจากผู้จำหน่าย</field>
+            <field name="description">BORROWING NOTE FROM SUPPLIER</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BT</field>
+            <field name="name">ใบคืนสินค้าจากการยืมให้ผู้จำหน่าย</field>
+            <field name="description">RETURN NOTE TO SUPPLIER</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BU</field>
+            <field name="name">ใบส่งของ/ใบกำกับภาษี/ใบเสร็จรับเงิน(บิลเงินสด บริการ) (ซื้อ)</field>
+            <field name="description">DELIVERY NOTE/TAX INVOICE/RECEIPT(CASH BILL)-SERV.(PURCHASE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BV</field>
+            <field name="name">ใบส่งของ/ใบแจ้งหนี้(งานบริการ,VAT ไม่ถึงกำหนด) (ซื้อ)</field>
+            <field name="description">DELIVERY NOTE/DEBIT NOTE(SERVICE,UNDUE VAT) (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BX</field>
+            <field name="name">ใบเพิ่มหนี้ เงินเชื่อ (ซื้อ)</field>
+            <field name="description">DEBIT RECEIVABLE NOTE (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BY</field>
+            <field name="name">ใบส่งของ/พิมพ์ใบแจ้งหนี้แยก(งานบริการ,VAT ไม่ถึงกำหนด) (ซื้อ</field>
+            <field name="description">DELIVERY NOTE/DEBIT NOTE SEPARATELY(SERVICE,UNDUE VAT)(PURC)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">BZ</field>
+            <field name="name">ใบเพิ่มหนี้ เงินเชื่อ บริการ(ซื้อ)</field>
+            <field name="description">DEBIT RECEIVABLE NOTE-SERVICE (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">C1</field>
+            <field name="name">ใบปรับยอดจากการตรวจนับสินค้า (ระบบผลิต)</field>
+            <field name="description">ADJUST BALANCE NOTE FROM CHECKING INVENTORY (MRP)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">CH</field>
+            <field name="name">ใบปรับยอดจากการตรวจนับสินค้า( ไม่มีผลต่อสต๊อค)</field>
+            <field name="description">ADJUST BALANCE NOTE FROM CHECKING INVENTORY ( NO CUT STOCK)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">CI</field>
+            <field name="name">ใบส่งของเดินพิธีการ (ขาย)</field>
+            <field name="description">COMMERCIAL INVOICE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">CL</field>
+            <field name="name">ใบปรับยอดจากการตรวจนับสินค้า ( Location )</field>
+            <field name="description">ADJUST BALANCE NOTE FROM CHECKING INVENTORY ( LOCATION )</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">CM</field>
+            <field name="name">ใบขอคืนสินค้า (ขาย)</field>
+            <field name="description">SALE RETURN REQUEST</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">CO</field>
+            <field name="name">ใบรวบรวมต้นทุน</field>
+            <field name="description">COLLECT COST (MRP)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">CQ</field>
+            <field name="name">เช็ค</field>
+            <field name="description">CHEQUE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">CS</field>
+            <field name="name">ใบปรับยอดจากการตรวจนับสินค้า</field>
+            <field name="description">ADJUST BALANCE NOTE FROM CHECKING INVENTORY</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">D1</field>
+            <field name="name">ใบส่งของ/ใบกำกับภาษีขาย (จากใบรับมัดจำ)</field>
+            <field name="description">DELIVERY ORDER / TAX INVOICE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">DC</field>
+            <field name="name">ใบลดหนี้ /ใบกำกับภาษีขาย (จากใบรับมัดจำ)</field>
+            <field name="description">CREDIT DELIVERY ORDER NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">DD</field>
+            <field name="name">ใบเพิ่มหนี้ /ใบกำกับภาษีขาย (จากใบรับมัดจำ)</field>
+            <field name="description">DEDIT DELIVERY ORDER NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">DI</field>
+            <field name="name">ใบยืนยันกำหนดส่งสินค้า</field>
+            <field name="description">DELIVERY INFORMATION NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">DL</field>
+            <field name="name">ใบงานส่งของ</field>
+            <field name="description">DELIVERY DOCUMENT</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">DO</field>
+            <field name="name">ใบส่งของ (Delivery Order)</field>
+            <field name="description">DELIVERY ORDER</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">DP</field>
+            <field name="name">ใบเตรียมสายการจัดส่งสินค้า</field>
+            <field name="description">SEND LINE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">E1</field>
+            <field name="name">ใบตั้งวงเงินสดย่อย</field>
+            <field name="description">NOTE PETTY CASH</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">E2</field>
+            <field name="name">ใบคืนวงเงินสดย่อย</field>
+            <field name="description">RETURN PETTY CASH NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">E3</field>
+            <field name="name">ใบขอเคลียร์ค่าใช้จ่ายตามวงเงินสดย่อย</field>
+            <field name="description">REQUEST PETTY CASH</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">E4</field>
+            <field name="name">ใบเคลียร์ค่าใช้จ่ายตามวงเงินสดย่อย</field>
+            <field name="description">EXPENSE CLEARING BY PETTY CASH</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">E5</field>
+            <field name="name">ใบรับเงินทดรองจ่าย</field>
+            <field name="description">ADVANCED CASH WITHDRAW</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">E6</field>
+            <field name="name">ใบขอเคลียร์ค่าใช้จ่าย</field>
+            <field name="description">REQUEST EXPENSE NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">E7</field>
+            <field name="name">ใบเคลียร์ค่าใช้จ่าย</field>
+            <field name="description">EXPENSE NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">E8</field>
+            <field name="name">ใบเคลียร์เงินทดรองจ่าย</field>
+            <field name="description">ADVANCED CASH RETURN</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">E9</field>
+            <field name="name">ใบขอเบิกเงินสดย่อยไปใช้</field>
+            <field name="description">ADVANCE PETTY CASH</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">EB</field>
+            <field name="name">เอกสารใบประมาณการต้นทุน</field>
+            <field name="description">ESTIMATE COST OF BUDGET</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">F1</field>
+            <field name="name">Business Plan</field>
+            <field name="description">BUSINESS PLAN</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">F2</field>
+            <field name="name">Sale Forecast</field>
+            <field name="description">SALE FORECAST</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">FG</field>
+            <field name="name">ใบรับสินค้าสำเร็จ</field>
+            <field name="description">MANUFACTURED GOODS RECEIPT NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">FR</field>
+            <field name="name">ใบรับสินค้าสำเร็จที่ผลิตได้</field>
+            <field name="description">MANUFACTURED GOODS RECEIPT NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">FS</field>
+            <field name="name">ใบประมาณการการขาย Sale Forecast (Busibess Plan)</field>
+            <field name="description">SALE FORECAST</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">G1</field>
+            <field name="name">ใบรับเงินมัดจำ</field>
+            <field name="description">SALES PLEDGE NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">GB</field>
+            <field name="name">ใบรับของชั่วคราว</field>
+            <field name="description">GOODS RECEIVE NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">GP</field>
+            <field name="name">ใบรับของ</field>
+            <field name="description">GOODS RECEIVE NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">GR</field>
+            <field name="name">ใบคืนของ</field>
+            <field name="description">GOODS RETURN NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">GS</field>
+            <field name="name">ใบส่งมอบระหว่าง Standard Operation</field>
+            <field name="description">MANUFACTURED GOODS SEND NOTE (STANDARD OPERATION)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">GW</field>
+            <field name="name">ใบรับมอบของระหว่าง Work Center</field>
+            <field name="description">MANUFACTURED GOODS SEND NOTE (W/C)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">IA</field>
+            <field name="name">เอกสารการจัดการเงินงวด</field>
+            <field name="description">MANAGE INSTALLMENT AMOUNT</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">IP</field>
+            <field name="name">ใบสืบราคา (ระบบซื้อ)</field>
+            <field name="description">INQUIRE PRICE (BUY)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">JR</field>
+            <field name="name">ใบรับงานซ่อมภายใน</field>
+            <field name="description">JOB RECEIPT NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">M1</field>
+            <field name="name">ใบสั่งผลิตย่อย</field>
+            <field name="description">MANUFACTURING LOT ORDER</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">MB</field>
+            <field name="name">สูตรการผลิต</field>
+            <field name="description">BOM</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">MC</field>
+            <field name="name">ใบปิดการผลิต</field>
+            <field name="description">MANUFACTURING CLOSED</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">MO</field>
+            <field name="name">ใบสั่งผลิต</field>
+            <field name="description">MANUFACTURING ORDER</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">MP</field>
+            <field name="name">ใบวางแผนการผลิต</field>
+            <field name="description">MANUFACTURING PLAN</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">MS</field>
+            <field name="name">ใบบันทึกเครื่องจักรหยุดงาน</field>
+            <field name="description">MACHINE STOP RECORD.</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">O1</field>
+            <field name="name">ใบวางแผนการจัดสินค้าลงรถ</field>
+            <field name="description">ORDER PLAN DELIVERY</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">OL</field>
+            <field name="name">ใบภาษีหัก ณ ที่จ่ายกระทำการแทน บริษัท หักนิติบุคคล ยื่นภงด.5</field>
+            <field name="description">REPRESENT WITHHOLDING TAX NOTE-COMPANY-SUBMIT TAX RETURN FOR</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">OP</field>
+            <field name="name">ใบภาษีหัก ณ ที่จ่ายกระทำการแทน บริษัท หักบุคคลธรรมดา ยื่นภงด</field>
+            <field name="description">REPRESENT WITHHOLDING TAX NOTE-PERSONAL-SUBMIT TAX RETURN FO</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">OR</field>
+            <field name="name">ใบแจ้งซ่อมภายใน</field>
+            <field name="description">ORDER REPAIR NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">P0</field>
+            <field name="name">ใบรับวางบิลจากผู้จำหน่าย</field>
+            <field name="description">RECEIPT BILL FROM SUPPLIER</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">P1</field>
+            <field name="name">Plan PR</field>
+            <field name="description">PLAN PURCHASE REQUEST</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">P2</field>
+            <field name="name">ใบขอซื้อ (ระบบผลิต)</field>
+            <field name="description">PURCHASE REQUEST (MRP)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">P3</field>
+            <field name="name">ใบสั่งซื้อ (ระบบผลิต)</field>
+            <field name="description">PURCHASE ORDER (MRP)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">P4</field>
+            <field name="name">ใบรับวางบิลรวมสาขา</field>
+            <field name="description">RECEIPT BILL FROM BRANCH</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">P5</field>
+            <field name="name">ใบจ่ายเงินมัดจำ(ระบบซื้อ)</field>
+            <field name="description">PAYMENT DEPOSIT</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">P7</field>
+            <field name="name">ใบคืนเงินมัดจำ (ซื้อ)</field>
+            <field name="description">CREDIT DEPOSIT CASH NOTE (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PA</field>
+            <field name="name">ใบจัดพาเลท</field>
+            <field name="description">PALLET NOTE (MRP)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PB</field>
+            <field name="name">เอกสารการขออนุมัติจ่ายเงิน</field>
+            <field name="description">PAYMENT VOUCHER</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PC</field>
+            <field name="name">ใบนำฝากเช็ค</field>
+            <field name="description">PAY IN CHEQUE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PD</field>
+            <field name="name">ใบนำฝากบัตรเครดิต</field>
+            <field name="description">PAY IN CRADIT</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PE</field>
+            <field name="name">ใบเสร็จจ่ายเงินรวมสาขา (ซื้อ)</field>
+            <field name="description">RECEIPT (BRANCH)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PH</field>
+            <field name="name">ใบนำฝากเงินสด</field>
+            <field name="description">PAY IN CASH</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PI</field>
+            <field name="name">ใบเสร็จรับเงิน (ซื้อ)</field>
+            <field name="description">RECEIPT (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PJ</field>
+            <field name="name">Packing List ระบบซื้อ</field>
+            <field name="description">PACKING LIST (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PK</field>
+            <field name="name">Packing List ระบบขาย</field>
+            <field name="description">PACKING LIST (SALES)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PL</field>
+            <field name="name">ใบวางบิล (ระบบซื้อ)</field>
+            <field name="description">BILL (PURCHASE )</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PM</field>
+            <field name="name">Plan Manufacturing Order</field>
+            <field name="description">PLAN MANUFACTURING ORDER</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PN</field>
+            <field name="name">ใบโอนเงินระหว่างธนาคาร</field>
+            <field name="description">ใบโอนเงินระหว่างธนาคาร</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PO</field>
+            <field name="name">ใบสั่งซื้อ (PURCHASE ORDER)</field>
+            <field name="description">PURCHASE ORDER</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PP</field>
+            <field name="name">Packing List ระบบขาย เดินพิธีการ</field>
+            <field name="description">COMMERCIAL PACKING LIST (SALES)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PQ</field>
+            <field name="name">ใบเสนอราคา (ระบบซื้อ)</field>
+            <field name="description">QUOTATION (BUY)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PR</field>
+            <field name="name">ใบขอซื้อ</field>
+            <field name="description">PURCHASE REQUEST</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PS</field>
+            <field name="name">ใบนำฝาก</field>
+            <field name="description">PAYIN SLIP</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PT</field>
+            <field name="name">ใบเสร็จรับเงิน การนำส่งภาษีหัก ณ ที่จ่าย</field>
+            <field name="description">RECEIPT (WITHHOLDING TAX)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PU</field>
+            <field name="name">ใบเสร็จจ่ายเงินรวมสาขา (ซื้อ) (งานบริการ)</field>
+            <field name="description">RECEIPT (BRANCH) -SERVICE (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">PV</field>
+            <field name="name">ใบเสร็จรับเงิน/ใบกำกับภาษี (ซื้อ) (งานบริการ)</field>
+            <field name="description">RECEIPT/TAX INVOICE -SERVICE (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">Q1</field>
+            <field name="name">ใบขอเบิก</field>
+            <field name="description">MATERIAL REQUEST NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">Q2</field>
+            <field name="name">ใบขอเบิก แบบรวบหลาย MO</field>
+            <field name="description">MATERIAL REQUEST NOTE (MULTI MO)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">QA</field>
+            <field name="name">ใบขอโอนสินค้าเข้าคลังยืม</field>
+            <field name="description">TRANSFER REQUEST NOTE INTO BORROW WAREHOUSE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">QB</field>
+            <field name="name">ใบขอโอนข้ามสาขา</field>
+            <field name="description">TRANSFER BETWEEN BRANCH REQUEST NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">QP</field>
+            <field name="name">ใบขอเบิกบรรจุภัณฑ์</field>
+            <field name="description">PACKAGING REQUEST NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">QR</field>
+            <field name="name">ใบขอเบิกวัตถุดิบไปผลิต</field>
+            <field name="description">TRANSFER REQUEST MATERIAL REQUISTION NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">QS</field>
+            <field name="name">ใบเสนอราคา (ระบบขาย)</field>
+            <field name="description">QUOTATION (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">QT</field>
+            <field name="name">ใบขอโอนข้ามคลัง</field>
+            <field name="description">TRANSFER REQUEST NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">R1</field>
+            <field name="name">ใบรับคืนจากการเบิกวัตถุดิบ</field>
+            <field name="description">RETURN NOTE FROM MATERIAL REQUISITION</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">R2</field>
+            <field name="name">ใบรับคืนจากการเบิกวัตถุดิบเพิ่ม 1</field>
+            <field name="description">RETURN NOTE FROM MATERIAL REQUISITION ( ADD 1 )</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">R3</field>
+            <field name="name">ใบรับคืนจากการเบิกวัตถุดิบเพิ่ม 2</field>
+            <field name="description">RETURN NOTE FROM MATERIAL REQUISITION ( ADD 2 )</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">R4</field>
+            <field name="name">ใบรับคืนจากการเบิกวัตถุดิบเพิ่มพิเศษ</field>
+            <field name="description">RETURN NOTE FROM MATERIAL REQUISITION ( ADD EXTRA )</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">R5</field>
+            <field name="name">ใบรับเงินมัดจำ(ระบบขาย)</field>
+            <field name="description">RECEIPT DEPOSIT</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">R6</field>
+            <field name="name">ใบรับวางบิลรวมสาขา (ขาย)</field>
+            <field name="description">RECEIPT BILL FROM BRANCH (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">R7</field>
+            <field name="name">ใบคืนเงินมัดจำ (ขาย)</field>
+            <field name="description">CREDIT DEPOSIT CASH NOTE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RA</field>
+            <field name="name">ใบรับสินค้าจากการโอนสินค้าเข้าคลังยืม</field>
+            <field name="description">RETURN NOTE FROM TRANSFER NOTE INTO BORROW WAREHOUSE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RB</field>
+            <field name="name">ใบเสร็จก่อนการรับเงิน (ขาย)</field>
+            <field name="description">RECEIPT BEFORE PAID (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RC</field>
+            <field name="name">ใบรับคืนจากการเบิกวัตถุดิบ (จากใบปิดการผลิต)</field>
+            <field name="description">RETURN MATERIAL NOTE (FROM MANU. CLOSED NOTE )</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RE</field>
+            <field name="name">เงินหักประกันผลงาน(ระบบซื้อ)</field>
+            <field name="description">RETENTION WARRANTEE (PURCHASE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RF</field>
+            <field name="name">ใบเสร็จรับเงินรวมสาขา (ขาย)</field>
+            <field name="description">RECEIPT (BRANCH) (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RG</field>
+            <field name="name">เงินหักประกันผลงาน(ระบบขาย)</field>
+            <field name="description">RETENTION WARRANTEE (SALES)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RI</field>
+            <field name="name">ใบเสร็จรับเงิน (ขาย)</field>
+            <field name="description">RECEIPT (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RP</field>
+            <field name="name">ใบเสร็จรับเงินจากใบหักเงินประกันผลงาน (ซื้อ)</field>
+            <field name="description">RECEIPT FROM RETENTION WARRANTEE (BUY)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RR</field>
+            <field name="name">ใบขอซ่อมภายใน</field>
+            <field name="description">REQUEST REPAIR NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RS</field>
+            <field name="name">ใบเสร็จรับเงินจากใบหักเงินประกันผลงาน (ขาย)</field>
+            <field name="description">RECEIPT FROM RETENTION WARRANTEE (BUY)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RT</field>
+            <field name="name">ใบเสร็จก่อนการรับเงิน/ใบกำกับภาษี (ขาย) (งานบริการ)</field>
+            <field name="description">RECEIPT BEFORE PAID/TAX INVOICE -SERVICE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RU</field>
+            <field name="name">ใบเสร็จรับเงินรวมสาขา (ขาย) (งานบริการ)</field>
+            <field name="description">RECEIPT (BRANCH) -SERVICE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RV</field>
+            <field name="name">ใบเสร็จรับเงิน/ใบกำกับภาษี (ขาย) (งานบริการ)</field>
+            <field name="description">RECEIPT/TAX INVOICE -SERVICE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RW</field>
+            <field name="name">ใบรับคืนจากการเบิกวัตถุดิบ</field>
+            <field name="description">RETURN NOTE FROM MATERIAL REQUISITION</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">RX</field>
+            <field name="name">ใบรับคืนจากการเบิกวัสดุ</field>
+            <field name="description">RETURN NOTE FROM SUPPLIES REQUISITION</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">S0</field>
+            <field name="name">ใบวางบิลส่งให้ลูกค้า</field>
+            <field name="description">BILL SEND TO CUSTOMER</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">S1</field>
+            <field name="name">Sale note (ระบบขาย)</field>
+            <field name="description">SALE NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">S5</field>
+            <field name="name">ใบแจ้งหนี้เงินมัดจำ(ระบบขาย)</field>
+            <field name="description">INVOICES DEPOSIT (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">S7</field>
+            <field name="name">ใบแจ้งหนี้คืนเงินมัดจำ (ขาย)</field>
+            <field name="description">CREDIT DEPOSIT NOTE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SA</field>
+            <field name="name">ใบลดหนี้ เงินสด บริการ (ขาย)</field>
+            <field name="description">CREDIT CASH NOTE - SERVICE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SB</field>
+            <field name="name">ใบเพิ่มหนี้ เงินสด บริการ (ขาย)</field>
+            <field name="description">DEBIT CASH NOTE - SERVICE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SC</field>
+            <field name="name">ใบลดหนี้ เงินสด (ขาย)</field>
+            <field name="description">CREDIT CASH NOTE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SD</field>
+            <field name="name">ใบเพิ่มหนี้ เงินสด (ขาย)</field>
+            <field name="description">DEBIT CASH NOTE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SE</field>
+            <field name="name">ใบยืนยันการขาย</field>
+            <field name="description">SELLING CONFIRM NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SF</field>
+            <field name="name">ใบรับรู้การขาย</field>
+            <field name="description">SELLING RECOGNIZE NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SG</field>
+            <field name="name">ใบส่งของ/ใบกำกับภาษี/ให้ไม่คิดมูลค่า (ขาย)</field>
+            <field name="description">DELIVERY NOTE/TAX INVOICE/EXCLUDED VALUE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SI</field>
+            <field name="name">ใบส่งของ/ใบกำกับภาษี/ใบแจ้งหนี้ (ขาย)</field>
+            <field name="description">DELIVERY NOTE/TAX INVOICE/DEBIT NOTE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SJ</field>
+            <field name="name">ใบเก็บเงิน (ระบบขาย)</field>
+            <field name="description">COLLECTION REPORT (SALE SYSTEM)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SL</field>
+            <field name="name">ใบวางบิล (ระบบขาย)</field>
+            <field name="description">BILL (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SM</field>
+            <field name="name">ใบลดหนี้ เงินเชื่อ (ขาย)</field>
+            <field name="description">CREDIT RECEIVABLE NOTE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SN</field>
+            <field name="name">ใบลดหนี้ เงินเชื่อ บริการ (ขาย)</field>
+            <field name="description">CREDIT RECEIVABLE NOTE-SERVICE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SO</field>
+            <field name="name">ใบสั่งขาย (SALE ORDER)</field>
+            <field name="description">SALES ORDER</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SQ</field>
+            <field name="name">ใบส่งของ/ใบกำกับภาษี/พิมพ์ใบแจ้งหนี้แยก (ขาย)</field>
+            <field name="description">DELIVERY NOTE/TAX INVOICE/PRINT DEBIT NOTE SEPARATELY(SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SR</field>
+            <field name="name">ใบส่งของ/ใบกำกับภาษี/ใบเสร็จรับเงิน(บิลเงินสด) (ขาย)</field>
+            <field name="description">DELIVERY NOTE/TAX INVOICE/RECEIPT OR CASH RECEIPT (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SS</field>
+            <field name="name">ใบยืมสินค้าของลูกค้า</field>
+            <field name="description">BORROWING NOTE OF CUSTOMER</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">ST</field>
+            <field name="name">ใบคืนสินค้าจากการยืมของลูกค้า</field>
+            <field name="description">RETURN NOTE FROM CUSTOMER BORROWING</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SU</field>
+            <field name="name">ใบส่งของ/ใบกำกับภาษี/ใบเสร็จรับเงิน(บิลเงินสด บริการ) (ขาย)</field>
+            <field name="description">DELIVERY NOTE/TAX INVOICE/RECEIPT(CASH BILL)-SERVICE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SV</field>
+            <field name="name">ใบส่งของ/ใบแจ้งหนี้(งานบริการ,VAT ไม่ถึงกำหนด) (ขาย)</field>
+            <field name="description">DELIVERY NOTE/DEBIT NOTE(SERVICE, UNDUE VAT) (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SW</field>
+            <field name="name">ใบกำกับภาษีอย่างย่อ (ขาย)</field>
+            <field name="description">ABBR. TAX INVOICE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SX</field>
+            <field name="name">ใบเพิ่มหนี้ เงินเชื่อ (ขาย)</field>
+            <field name="description">DEBIT RECEIVABLE NOTE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SY</field>
+            <field name="name">ใบส่งของ/พิมพ์ใบแจ้งหนี้แยก(งานบริการ,VAT ไม่ถึงกำหนด) (ขาย)</field>
+            <field name="description">DELIVERY NOTE/PRINT DEBIT NOTE SEPARATELY-SERVICE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">SZ</field>
+            <field name="name">ใบเพิ่มหนี้ เงินเชื่อ บริการ (ขาย)</field>
+            <field name="description">DEBIT RECEIVABLE NOTE-SERVICE (SALE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">T1</field>
+            <field name="name">ใบโอนสินค้าข้ามคลัง</field>
+            <field name="description">TRANSFER NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">TA</field>
+            <field name="name">ใบโอนสินค้าเข้าคลังยืม</field>
+            <field name="description">TRANSFER NOTE INTO BORROW WAREHOUSE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">TB</field>
+            <field name="name">ใบโอนสินค้าระหว่างสาขา</field>
+            <field name="description">TRANSFER NOTE BETWEEN BRANCH</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">TL</field>
+            <field name="name">ใบโอนสินค้าระหว่างที่เก็บ</field>
+            <field name="description">TRANSFER NOTE BETWEEN LOCATION</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">TP</field>
+            <field name="name">ใบภาษีหัก ณ ที่จ่าย (กรณีเราเป็นผู้จ่าย/ผู้หักภาษี)</field>
+            <field name="description">WITHHOLDING TAX NOTE (PAY)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">TR</field>
+            <field name="name">ใบโอนสินค้าข้ามคลัง</field>
+            <field name="description">TRANSFER NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">TS</field>
+            <field name="name">ใบภาษีหัก ณ ที่จ่าย (กรณีเราเป็นผู้รับ/ถูกหักภาษี)</field>
+            <field name="description">WITHHOLDING TAX NOTE (NOT-SUBMIT)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">UB</field>
+            <field name="name">เอกสารการตัดงบประมาณ</field>
+            <field name="description">CUT BUDGET</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">VC</field>
+            <field name="name">VOUCHER</field>
+            <field name="description">VOUCHER</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">W1</field>
+            <field name="name">ใบเบิกวัตถุดิบ</field>
+            <field name="description">MATERIAL REQUISTION NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">W2</field>
+            <field name="name">ใบเบิกวัตถุดิบเพิ่ม 1</field>
+            <field name="description">MATERIAL REQUISTION NOTE ( ADD 1 )</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">W3</field>
+            <field name="name">ใบเบิกวัตถุดิบเพิ่ม 2</field>
+            <field name="description">MATERIAL REQUISTION NOTE ( ADD 2 )</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">W4</field>
+            <field name="name">ใบเบิกวัตถุดิบเพิ่มพิเศษ</field>
+            <field name="description">MATERIAL REQUISTION NOTE ( ADD EXTRA )</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">WC</field>
+            <field name="name">ใบเบิกวัตถุดิบ (จากใบปิดการผลิต)</field>
+            <field name="description">MATERIAL REQUISTION NOTE (FROM MANU. CLOSED NOTE)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">WE</field>
+            <field name="name">ใบปิดการผลิต</field>
+            <field name="description">CLOSED PRODUCTION NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">WL</field>
+            <field name="name">ใบภาษีหัก ณ ที่จ่าย บริษัทถูกหัก ไม่นำส่งแต่ไว้ตรวจสอบรายการ</field>
+            <field name="description">WITHHOLDING TAX NOTE-COMPANY-NOT SUBMIT-BUT FOR CHECKING</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">WO</field>
+            <field name="name">ใบสั่งผลิต</field>
+            <field name="description">WORK ORDER</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">WP</field>
+            <field name="name">ใบภาษีหัก ณ ที่จ่าย บุคคลธรรมดาถูกหัก ไม่ต้องนำส่ง</field>
+            <field name="description">WITHHOLDING TAX NOTE-PERSONAL-NOT SUBMIT</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">WR</field>
+            <field name="name">ใบเบิกวัตถุดิบไปผลิต</field>
+            <field name="description">MATERIAL REQUISTION NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">WX</field>
+            <field name="name">ใบเบิกวัสดุสิ้นเปลืองไปใช้</field>
+            <field name="description">REQUISITION NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">XF</field>
+            <field name="name">ใบส่งมอบสินค้าสำเร็จ</field>
+            <field name="description">EX. FACTORY NOTE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">XL</field>
+            <field name="name">ใบภาษีหัก ณ ที่จ่าย บริษัท หักนิติบุคคล ยื่นภงด.53</field>
+            <field name="description">WITHHOLDING TAX NOTE-COMPANY-SUBMIT TAX RETURN FORM 53</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">XP</field>
+            <field name="name">ใบภาษีหัก ณ ที่จ่าย บริษัท หักบุคคลธรรมดา ยื่นภงด3</field>
+            <field name="description">WITHHOLDING TAX NOTE-PERSONAL-SUBMIT TAX RETURN FORM 3</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">XQ</field>
+            <field name="name">ใบภาษีหัก ณ ที่จ่าย บริษัทหักบุคคลธรรมดา ยื่นภงด1</field>
+            <field name="description">WITHHOLDING TAX NOTE-PERSONAL-SUBMIT TAX RETURN FORM 1</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">XS</field>
+            <field name="name">ใบภาษีหัก ณ ที่จ่ายอื่นๆ (หักภาษี ณ ที่จ่ายไว้)</field>
+            <field name="description">WITHHOLDING TAX NOTE-OTHER (NOT SUBMIT BUT FOR CHECKING)</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_ref_type">
+            <field name="code">XT</field>
+            <field name="name">ใบภาษีหัก ณ ที่จ่ายอื่นๆ (ถูกหักภาษี ณ ที่จ่าย)</field>
+            <field name="description">WITHHOLDING TAX NOTE-OTHER</field>
+            <field name="is_active">true</field>
+        </record>
+    </data>
+</odoo>

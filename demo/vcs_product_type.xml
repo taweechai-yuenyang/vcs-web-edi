@@ -1,0 +1,104 @@
+<odoo>
+    <data>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">FINISH GOODS</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">MATERIAL</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">SERVICE</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">OFFICE SUPPLY</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">SEMI</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">OTHER ASSET</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">INCOME</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">EXPENSE</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">COMPONENT</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">SPARE PARTS</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">LABEL</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">PACKAGING</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">LAND</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">BUILDING</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">OFFICE EQUIPTMENT</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">MACHINE</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">DIRECT LABOR</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">INDIRECT LABOR</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">DIRECT EXPENSE</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">INDIRECT EXPENSE</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">SUB CONTRACT(IN,OUT)</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">PLEDGE</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">TOOLS</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">INSURANCE</field>
+        </record>
+        <record model="product.category">
+            <field name="parent_id" ref="product.product_category_all" />
+            <field name="name">REMARK</field>
+        </record>
+    </data>
+</odoo>

@@ -1,0 +1,508 @@
+<odoo>
+    <data>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">0000000002</field>
+            <field name="name">คลังระหว่างทำ</field>
+            <field name="description">0000000002-คลังระหว่างทำ</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">00001</field>
+            <field name="name">คลังลดหนี้</field>
+            <field name="description">00001-คลังลดหนี้</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">00002</field>
+            <field name="name">คลังหลัก</field>
+            <field name="description">00002-คลังหลัก</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">0001</field>
+            <field name="name">สำเร็จรูปคลังรอ</field>
+            <field name="description">0001-สำเร็จรูปคลังรอ</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">001</field>
+            <field name="name">วัตถุดิบ</field>
+            <field name="description">001-วัตถุดิบ</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">002</field>
+            <field name="name">วัสดุสิ้นเปลืองโรง1.</field>
+            <field name="description">002-วัสดุสิ้นเปลืองโรง1.</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">002.1</field>
+            <field name="name">สิ้นเปลืองโรง2</field>
+            <field name="description">002.1-สิ้นเปลืองโรง2</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">002.2</field>
+            <field name="name">คลังวัสดุสิ้นเปลือง LC</field>
+            <field name="description">002.2-คลังวัสดุสิ้นเปลือง LC</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">003</field>
+            <field name="name">ตัวประกอบ</field>
+            <field name="description">003-ตัวประกอบ</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">004</field>
+            <field name="name">อุปกรณ์สำนักงาน</field>
+            <field name="description">004-อุปกรณ์สำนักงาน</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">005</field>
+            <field name="name">สินค้าสำเร็จรูป</field>
+            <field name="description">005-สินค้าสำเร็จรูป</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">006</field>
+            <field name="name">อะไหล่ทั่วไป</field>
+            <field name="description">006-อะไหล่ทั่วไป</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">007</field>
+            <field name="name">คลังค่าซ่อมแซม</field>
+            <field name="description">007-คลังค่าซ่อมแซม</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">008</field>
+            <field name="name">ประกอบรอขาย LC</field>
+            <field name="description">008-ประกอบรอขาย LC</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">009</field>
+            <field name="name">กึ่งสำเร็จรูป</field>
+            <field name="description">009-กึ่งสำเร็จรูป</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">010</field>
+            <field name="name">คลัง TRIAL</field>
+            <field name="description">010-คลัง TRIAL</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">011</field>
+            <field name="name">งานระหว่างทำ</field>
+            <field name="description">011-งานระหว่างทำ</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">012</field>
+            <field name="name">อุปกรณ์โรงงาน</field>
+            <field name="description">012-อุปกรณ์โรงงาน</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">013</field>
+            <field name="name">ค่าจ้างชุบพ่นสี</field>
+            <field name="description">013-ค่าจ้างชุบพ่นสี</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">014</field>
+            <field name="name">คลังเบิกวัสดุสิ้นเปลือง</field>
+            <field name="description">014-คลังเบิกวัสดุสิ้นเปลือง</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">014.</field>
+            <field name="name">ค่าจ้างทำของ</field>
+            <field name="description">014.-ค่าจ้างทำของ</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">015</field>
+            <field name="name">สินทรัพย์อื่นๆ</field>
+            <field name="description">015-สินทรัพย์อื่นๆ</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">016</field>
+            <field name="name">งานตัวอย่าง</field>
+            <field name="description">016-งานตัวอย่าง</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">017</field>
+            <field name="name">สิ้นเปลืองอื่นๆ</field>
+            <field name="description">017-สิ้นเปลืองอื่นๆ</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">018</field>
+            <field name="name">เบ็ดเตล็ด</field>
+            <field name="description">018-เบ็ดเตล็ด</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">019</field>
+            <field name="name">อุปกรณ์สำนักงานอื่นๆ</field>
+            <field name="description">019-อุปกรณ์สำนักงานอื่นๆ</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">020</field>
+            <field name="name">ค่าซ่อมแซม</field>
+            <field name="description">020-ค่าซ่อมแซม</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">021</field>
+            <field name="name">สวัสดิการ</field>
+            <field name="description">021-สวัสดิการ</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">022</field>
+            <field name="name">ค่าจ้างขนส่ง</field>
+            <field name="description">022-ค่าจ้างขนส่ง</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">025</field>
+            <field name="name">OEM</field>
+            <field name="description">025-OEM</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">200</field>
+            <field name="name">งานเคลม</field>
+            <field name="description">200-งานเคลม</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">300</field>
+            <field name="name">งานเสีย</field>
+            <field name="description">300-งานเสีย</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">400</field>
+            <field name="name">คลังเชื่อมรอพ่นสี/และประกอบ</field>
+            <field name="description">400-คลังเชื่อมรอพ่นสี/และประกอบ</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">600</field>
+            <field name="name">พ่นสี</field>
+            <field name="description">600-พ่นสี</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">601</field>
+            <field name="name">ขายโคโบต้า</field>
+            <field name="description">601-ขายโคโบต้า</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">602</field>
+            <field name="name">คลัง LACK</field>
+            <field name="description">602-คลัง LACK</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">603</field>
+            <field name="name">คลังปรับ</field>
+            <field name="description">603-คลังปรับ</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">604</field>
+            <field name="name">งานปรับออก</field>
+            <field name="description">604-งานปรับออก</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">700</field>
+            <field name="name">งานรอซ่อม</field>
+            <field name="description">700-งานรอซ่อม</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">701</field>
+            <field name="name">งานทิ้ง</field>
+            <field name="description">701-งานทิ้ง</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">900</field>
+            <field name="name">งาน SUPPLY SKC</field>
+            <field name="description">900-งาน SUPPLY SKC</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">AAA</field>
+            <field name="name">AAA</field>
+            <field name="description">AAA-AAA</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">AAPT</field>
+            <field name="name">บริษัท แอดวานซ์ออโต โปรดักส์ เทคโนโลยี จำกัด</field>
+            <field name="description">AAPT-บริษัท แอดวานซ์ออโต โปรดักส์ เทคโนโลยี จำกัด</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">ABT</field>
+            <field name="name">ABT</field>
+            <field name="description">ABT-ABT</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">AMIDA</field>
+            <field name="name">บจก.อมิดะ อินเตอร์เนชั่นแนล</field>
+            <field name="description">AMIDA-บจก.อมิดะ อินเตอร์เนชั่นแนล</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">ATOM</field>
+            <field name="name">ส่งพ่นสี ATOM</field>
+            <field name="description">ATOM-ส่งพ่นสี ATOM</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">BEA</field>
+            <field name="name">BEA</field>
+            <field name="description">BEA-BEA</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">BSP</field>
+            <field name="name">ขึ้นรูป BSP</field>
+            <field name="description">BSP-ขึ้นรูป BSP</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">BSP SUPPLY</field>
+            <field name="name">SUPPLY SKC</field>
+            <field name="description">BSP SUPPLY-SUPPLY SKC</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">BTA</field>
+            <field name="name">BTA</field>
+            <field name="description">BTA-BTA</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">BVS</field>
+            <field name="name">.</field>
+            <field name="description">BVS-.</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">CQP</field>
+            <field name="name">ส่ง Machine CQP</field>
+            <field name="description">CQP-ส่ง Machine CQP</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">DOWA</field>
+            <field name="name">ชุบ DOWA</field>
+            <field name="description">DOWA-ชุบ DOWA</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">EDP</field>
+            <field name="name">ทำสี EDP</field>
+            <field name="description">EDP-ทำสี EDP</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">FST</field>
+            <field name="name">ส่งFST</field>
+            <field name="description">FST-ส่งFST</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">FTB</field>
+            <field name="name">FTB</field>
+            <field name="description">FTB-FTB</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">JA</field>
+            <field name="name">JA</field>
+            <field name="description">JA-JA</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">JRT</field>
+            <field name="name">ส่งเจาะ JRT</field>
+            <field name="description">JRT-ส่งเจาะ JRT</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">KK</field>
+            <field name="name">KK</field>
+            <field name="description">KK-KK</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">KRDA</field>
+            <field name="name">-</field>
+            <field name="description">KRDA--</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">KTA</field>
+            <field name="name">ส่งงอ KTA</field>
+            <field name="description">KTA-ส่งงอ KTA</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">LTI</field>
+            <field name="name">เหรียญทอง</field>
+            <field name="description">LTI-เหรียญทอง</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">NLD</field>
+            <field name="name">ส่งพ่นสี NLD</field>
+            <field name="description">NLD-ส่งพ่นสี NLD</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">NTP</field>
+            <field name="name">ส่งพ่นสี NTP</field>
+            <field name="description">NTP-ส่งพ่นสี NTP</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">PBC</field>
+            <field name="name">ส่งบอรู PBC</field>
+            <field name="description">PBC-ส่งบอรู PBC</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">PPD</field>
+            <field name="name">PPD</field>
+            <field name="description">PPD-PPD</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">SAS</field>
+            <field name="name">SAS</field>
+            <field name="description">SAS-SAS</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">SIRI</field>
+            <field name="name">ส่งชุป SIRI</field>
+            <field name="description">SIRI-ส่งชุป SIRI</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">SORE</field>
+            <field name="name">ส่งพ่นสี SORE</field>
+            <field name="description">SORE-ส่งพ่นสี SORE</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">SSA</field>
+            <field name="name">ส่งพ่นสี SSA</field>
+            <field name="description">SSA-ส่งพ่นสี SSA</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">SSI</field>
+            <field name="name">ส่งม้วน SSI</field>
+            <field name="description">SSI-ส่งม้วน SSI</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">STC</field>
+            <field name="name">STC</field>
+            <field name="description">STC-STC</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">TKM</field>
+            <field name="name">TKM</field>
+            <field name="description">TKM-TKM</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">TMP</field>
+            <field name="name">บริษัท โตไก เมทัลโปรดักส์ จำกัด</field>
+            <field name="description">TMP-บริษัท โตไก เมทัลโปรดักส์ จำกัด</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">TNT</field>
+            <field name="name">TNT</field>
+            <field name="description">TNT-TNT</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">TPG</field>
+            <field name="name">ส่งชุบ TPG</field>
+            <field name="description">TPG-ส่งชุบ TPG</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">UEM</field>
+            <field name="name">UEM</field>
+            <field name="description">UEM-UEM</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">VCS</field>
+            <field name="name">VCS</field>
+            <field name="description">VCS-VCS</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">VPS</field>
+            <field name="name">ส่งVPS</field>
+            <field name="description">VPS-ส่งVPS</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">WPK</field>
+            <field name="name">WPK</field>
+            <field name="description">WPK-WPK</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">XXX</field>
+            <field name="name">คลังการเบิก</field>
+            <field name="description">XXX-คลังการเบิก</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">YNT</field>
+            <field name="name">YNT</field>
+            <field name="description">YNT-YNT</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">YYY</field>
+            <field name="name">คลังการรับ</field>
+            <field name="description">YYY-คลังการรับ</field>
+            <field name="is_active">true</field>
+        </record>
+        <record model="vcs_web_edi.vcs_whs">
+            <field name="code">ซินหยวน.</field>
+            <field name="name">ซินหยวน.</field>
+            <field name="description">ซินหยวน.-ซินหยวน.</field>
+            <field name="is_active">true</field>
+        </record>
+    </data>
+</odoo>
