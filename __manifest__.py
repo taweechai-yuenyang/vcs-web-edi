@@ -22,7 +22,8 @@
     ],
     # only loaded in demonstration mode
     'demo': [
-        'demo/vcs_product_group.xml',
+        # 'demo/vcs_product_unit.xml',
+        # 'demo/vcs_product_group.xml',
     ],
     "application": True,
     'installable': True,# installable คือ ระบุว่าโมดูลสามารถติดตั้งได้หรือไม่
